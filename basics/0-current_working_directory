@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# My absolute path name script
+
+pwd
