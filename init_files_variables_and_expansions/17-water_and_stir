@@ -1,2 +1,0 @@
-#!/bin/bash
-WATIR=$((WATER + STIR)) | echo "$WATIR"
