@@ -327,6 +327,70 @@ julien@ubuntu:/tmp$ pwd
 <hr>
 </details>
 
+<details>
+	<summary>
+		<b>Task 11. Lists</b>
+	</summary>
+	<br>
+
+Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the `/boot` directory (in this order), in long format.
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `basics`.
+- File: `11-lists`.
+<hr>
+</details>
+
+<details>
+	<summary>
+		<b>Task 12. File type</b>
+	</summary>
+	<br>
+
+Write a script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
+
+Example:
+```
+ubuntu@ip-172-31-63-244:~$ ./12-file_type
+/tmp/iamafile: ELF 64-bit LSB  executable, x86-64, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.24, BuildID[sha1]=bd39c07194a778ccc066fc963ca152bdfaa3f971, stripped
+```
+Note that depending on the file, the output of your script will be different.
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `basics`.
+- File: `12-file_type`.
+<hr>
+</details>
+
+<details>
+	<summary>
+		<b>Task 13. We are symbols, and inhabit symbols</b>
+	</summary>
+	<br>
+
+Create a symbolic link to `/bin/ls`, `named __ls__`. The symbolic link should be created in the current working directory.
+```
+ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la
+total 144
+drwxrwxr-x  2 ubuntu ubuntu   4096 Sep 20 03:24 .
+drwxrwxrwt 12 root   root   139264 Sep 20 03:24 ..
+ubuntu@ip-172-31-63-244:/tmp/sym$./13-symbolic_link
+ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la
+total 144
+drwxrwxr-x  2 ubuntu ubuntu   4096 Sep 20 03:24 .
+drwxrwxrwt 12 root   root   139264 Sep 20 03:24 ..
+lrwxrwxrwx  1 ubuntu ubuntu      7 Sep 20 03:24 __ls__ -> /bin/ls
+```
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `basics`.
+- File: `13-symbolic_link`.
+<hr>
+</details>
+
 ## 📂 Files description
 
 | **FILE** | **DESCRIPTION** |
