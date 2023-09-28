@@ -13,9 +13,9 @@
 |:---------------------------------  :|:-------------------------------------------------------------------------:|
 | basics                              | It focuses on learning Linux file system naviman pages, and usinsh shell. |
 | init_files_variables_and_expansions | It focuses on learning shell initialization files, variables (local and . |
-| io_redirections_and_filters         |
-| permissions                         |
-| README.md                           |
+| io_redirections_and_filters         | |
+| permissions                         | |
+| README.md                           | |
 
 # Thanks
 
