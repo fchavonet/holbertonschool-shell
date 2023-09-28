@@ -46,6 +46,29 @@ At the end of this project, I had to be able to explain to anyone, without the h
 
 ## 📝 Instruction
 
+<details>
+	<summary>
+		<b>Task 0. Where am I?</b>
+	</summary>
+    Write a script that prints the absolute path name of the current working directory.
+
+Example:
+
+```
+$ ./0-current_working_directory
+/basics
+$
+```
+
+##
+
+Repo:
+
+- GitHub repository: holbertonschool-shell
+- Directory: basics
+- File: 0-current_working_directory
+</details>
+
 ## 📂 Files description
 
 | **FILE** | **DESCRIPTION** |
