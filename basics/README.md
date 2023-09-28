@@ -194,7 +194,6 @@ Display current directory contents.
 - With user and group IDs displayed numerically.
 - And hidden files (starting with .).
 
-<br><br>
 Example:
 <br><br>
 
