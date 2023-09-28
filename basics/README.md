@@ -518,24 +518,24 @@ julien@ubuntu:/tmp/h$
 
 | **FILE** | **DESCRIPTION** |
 | :-----: | ----- |
-| `0-current_working_directory` | |
-| `1-listit` | |
-| `2-bring_me_home` | |
-| `3-listfiles` | |
-| `4-listmorefiles` | |
-| `5-listfilesdigitonly` | |
-| `6-firstdirectory` | |
-| `7-movethatfile` | |
-| `8-firstdelete` | |
-| `9-firstdirdeletion` | |
-| `9-firstdirdeletion` | |
-| `11-lists` | |
-| `12-file_type` | |
-| `13-symbolic_link` | |
-| `14-copy_html` | |
-| `15-lets_move` | |
-| `16-clean_emacs` | |
-| `17-tree` | |
+| `0-current_working_directory` | Script to print the absolute path name of the current working directory. |
+| `1-listit` | Script to display the contents list of the current directory. |
+| `2-bring_me_home` | Script to change the working directory to the user's home directory. |
+| `3-listfiles` |  Script to display current directory contents in a long format. |
+| `4-listmorefiles` | Script to display current directory contents, including hidden files, in long format. |
+| `5-listfilesdigitonly` | Script to display current directory contents in long format with user and group IDs displayed numerically, including hidden files. |
+| `6-firstdirectory` | Script to create a directory named `my_first_directory` in the `/tmp/` directory. |
+| `7-movethatfile` | Script to move the file betty from `/tmp/` to `/tmp/my_first_directory`. |
+| `8-firstdelete` | Script to delete the file betty in `/tmp/my_first_directory`. |
+| `9-firstdirdeletion` | Script to delete the directory `my_first_directory` in the `/tmp` directory.|
+| `10-back` | Script to change the working directory to the previous one. |
+| `11-lists` | Script to list all files in the current directory, the parent directory, and the `/boot` directory in long format. |
+| `12-file_type` | Script to print the type of the file named iamafile in the `/tmp` directory. |
+| `13-symbolic_link` | Script to create a symbolic link named `__ls__` to `/bin/ls` in the current working directory. |
+| `14-copy_html` | Script to copy HTML files from the current working directory to the parent directory if they don't exist or are newer. |
+| `15-lets_move` | Script to move files beginning with an uppercase letter to the directory `/tmp/u|` |
+| `16-clean_emacs` | Script to delete files in the current working directory that end with the character `~` |
+| `17-tree` | Script to create directories `welcome/`, `welcome/to/`, and `welcome/to/school` in the current directory. |
 | `README.md` | The readme file you are currently reading 😉. |
 
 
