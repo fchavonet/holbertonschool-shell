@@ -50,9 +50,9 @@ At the end of this project, I had to be able to explain to anyone, without the h
 	<summary>
 		<b>Task 0. Where am I?</b>
 	</summary>
-	<br>
+<br>
 Write a script that prints the absolute path name of the current working directory.
-
+<br>
 Example:
 
 ```
