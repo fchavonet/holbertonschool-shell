@@ -65,6 +65,7 @@ $
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 0-current_working_directory
+#
 </details>
 
 <details>
