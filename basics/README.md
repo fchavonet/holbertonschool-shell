@@ -70,6 +70,29 @@ Repo:
 - File: 0-current_working_directory
 </details>
 
+<details>
+	<summary>
+		<b>Task 1. What’s in there?</b>
+	</summary>
+<br>
+Display the contents list of your current directory.
+<br>
+Example:
+
+```
+$ ./1-listit
+Applications    Documents   Dropbox Movies Pictures
+Desktop Downloads   Library Music Public
+$
+```
+##
+Repo:
+
+- GitHub repository: holbertonschool-shell
+- Directory: basics
+- File: 1-listit
+</details>
+
 ## 📂 Files description
 
 | **FILE** | **DESCRIPTION** |
