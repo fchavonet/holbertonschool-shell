@@ -1,7 +1,5 @@
 <p align="center">
-
 ![Holberton School Logo](https://apply.holbertonschool.com/holberton-logo.png)
-
 </p>
 <h1 align="center">SHELL</h1>
 
