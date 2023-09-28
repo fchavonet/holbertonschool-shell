@@ -100,7 +100,7 @@ $
 <br>
 Write a script that changes the working directory to the user’s home directory.
 <br>
-- You are not allowed to use any shell variables
+- You are not allowed to use any shell variables.
 <br><br>
 	
 ```
@@ -154,7 +154,7 @@ $
 		<b>Task 4. Hidden files</b>
 	</summary>
 <br>
-Display current directory contents, including hidden files (starting with .).
+Display current directory contents, including hidden files (starting with `.`).
 <br>
 Use the long format.
 <br><br>
