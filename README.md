@@ -1,6 +1,6 @@
 <img  height="50px" align="right" src="https://apply.holbertonschool.com/holberton-logo.png">
 
-# THE BASH SHELL: Mastering Linux Terminal Navigation and More
+## THE BASH SHELL: Mastering Linux Terminal Navigation and More
 
 ## Objective
 
