@@ -2,7 +2,6 @@
   <img src="https://apply.holbertonschool.com/holberton-logo.png">
 </p>
 
-#
 # SHELL
 
 # Objective
