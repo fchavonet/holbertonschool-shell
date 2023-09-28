@@ -53,7 +53,7 @@ At the end of this project, I had to be able to explain to anyone, without the h
 	<br>
     	Write a script that prints the absolute path name of the current working directory.
 
-	Example:
+Example:
 
 ```
 $ ./0-current_working_directory
