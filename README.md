@@ -6,7 +6,7 @@
 
 All of these projects were completed as part of the Holberton School curriculum. The goal here was to learn the fundamentals of Linux and Bash Shell.
 
-To optimize your viewing experience of this README on mobile devices, please rotate your device 😊 !
+***For the best mobile viewing experience of this README, please rotate your device in paysage mode 😊.***
 
 ## 📂 Files description
 
@@ -16,7 +16,7 @@ To optimize your viewing experience of this README on mobile devices, please rot
 | `init_files_variables_and_expansions` | Covers Bash Shell initialization files, local and global variables, expansions, Shell arithmetic, and alias creation.           |
 | `io_redirections_and_filters`         | Explores essential Linux Shell commands and techniques related to I/O redirection, including stream manipulation and filtering. |
 | `permissions`                         | Dives into Linux file permissions and related commands like chmod, sudo, su, chown, and chgrp.                                  |
-| `README.md`                           | The readme file you are currently reading :wink:                                                                                |
+| `README.md`                           | The readme file you are currently reading :wink:.                                                                               |
 
 ## ♥️ Thanks
 
