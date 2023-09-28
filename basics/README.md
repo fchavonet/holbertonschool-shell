@@ -62,9 +62,9 @@ $
 ```
 #
 **Repo:**
-- GitHub repository: holbertonschool-shell
-- Directory: basics
-- File: 0-current_working_directory
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `basics`.
+- File: `0-current_working_directory`.
 <hr>
 </details>
 
@@ -85,9 +85,9 @@ $
 ```
 #
 **Repo:**
-- GitHub repository: holbertonschool-shell
-- Directory: basics
-- File: 1-listit
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `basics`.
+- File: `1-listit`.
 <hr>
 </details>
 
@@ -111,9 +111,9 @@ julien@ubuntu:~$
 ```
 #
 **Repo:**
-- GitHub repository: holbertonschool-shell
-- Directory: basics
-- File: 2-bring_me_home
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `basics`.
+- File: `2-bring_me_home`.
 <hr>
 </details>
 
@@ -138,9 +138,9 @@ $
 ```
 #
 **Repo:**
-- GitHub repository: holbertonschool-shell
-- Directory: basics
-- File: 3-listfiles
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `basics`.
+- File: `3-listfiles`.
 <hr>
 </details>
 
@@ -169,9 +169,9 @@ $
 ```
 #
 **Repo:**
-- GitHub repository: holbertonschool-shell
-- Directory: basics
-- File: 4-listmorefiles
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `basics`.
+- File: `4-listmorefiles`.
 <hr>
 </details>
 
@@ -203,9 +203,9 @@ $
 ```
 #
 **Repo:**
-- GitHub repository: holbertonschool-shell
-- Directory: basics
-- File: 5-listfilesdigitonly
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `basics`.
+- File: `5-listfilesdigitonly`.
 <hr>
 </details>
 
@@ -226,9 +226,9 @@ $
 ```
 #
 **Repo:**
-- GitHub repository: holbertonschool-shell
-- Directory: basics
-- File: 6-firstdirectory
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `basics`.
+- File: `6-firstdirectory`.
 <hr>
 </details>
 
@@ -249,9 +249,9 @@ $
 ```
 #
 **Repo:**
-- GitHub repository: holbertonschool-shell
-- Directory: basics
-- File: 7-movethatfile
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `basics`.
+- File: `7-movethatfile`.
 <hr>
 </details>
 
@@ -272,9 +272,9 @@ $
 ```
 #
 **Repo:**
-- GitHub repository: holbertonschool-shell
-- Directory: basics
-- File: 8-firstdelete
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `basics`.
+- File: `8-firstdelete`.
 <hr>
 </details>
 
@@ -295,9 +295,9 @@ $
 ```
 #
 **Repo:**
-- GitHub repository: holbertonschool-shell
-- Directory: basics
-- File: 9-firstdirdeletion
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `basics`.
+- File: `9-firstdirdeletion`.
 <hr>
 </details>
 
@@ -321,9 +321,9 @@ julien@ubuntu:/tmp$ pwd
 ```
 #
 **Repo:**
-- GitHub repository: holbertonschool-shell
-- Directory: basics
-- File: 10-back
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `basics`.
+- File: `10-back`.
 <hr>
 </details>
 
