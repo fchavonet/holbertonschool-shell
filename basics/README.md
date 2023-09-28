@@ -38,7 +38,7 @@ At the end of this project, I had to be able to explain to anyone, without the h
 
 - Allowed editors: vi, vim, emacs.
 - All my scripts will be tested on Ubuntu.
-- All my scripts should be exactly two lines long (`$ wc -l file` should print 2).
+- All my scripts should be exactly two lines long (`wc -l file_name` should print 2).
 - All my files should end with a new line (why?).
 - The first line of all my files should be exactly `#!/bin/bash`.
 - I am not allowed to use backticks, `&&`, `||` or `;`.
