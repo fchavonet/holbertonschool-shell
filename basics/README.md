@@ -54,7 +54,7 @@ At the end of this project, I had to be able to explain to anyone, without the h
 Write a script that prints the absolute path name of the current working directory.
 <br><br>
 Example:
-<br>
+<br><br>
 	
 ```
 $ ./0-current_working_directory
@@ -77,7 +77,7 @@ Repo:
 Display the contents list of your current directory.
 <br><br>
 Example:
-<br>
+<br><br>
 
 ```
 $ ./1-listit
