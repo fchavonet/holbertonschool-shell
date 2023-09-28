@@ -93,6 +93,31 @@ Repo:
 - File: 1-listit
 </details>
 
+<details>
+	<summary>
+		<b>Task 2. There is no place like home</b>
+	</summary>
+<br>
+Write a script that changes the working directory to the user’s home directory.
+- You are not allowed to use any shell variables
+<br><br>
+	
+```
+julien@ubuntu:/tmp$ pwd
+/tmp
+julien@ubuntu:/tmp$ echo $HOME
+/home/julien
+julien@ubuntu:/tmp$ source ./2-bring_me_home
+julien@ubuntu:~$ pwd
+/home/julien
+julien@ubuntu:~$ 
+```
+##
+Repo:
+- GitHub repository: holbertonschool-shell
+- Directory: basics
+- File: 2-bring_me_home
+
 ## 📂 Files description
 
 | **FILE** | **DESCRIPTION** |
