@@ -79,7 +79,5 @@ At the end of this project, I am expected to be able to explain to anyone, witho
 A big thank you to all my Holberton School peers for their help and support throughout these projects.
 
 <p align="right">
-    
-*To optimize your viewing experience of this README, please rotate your device in paysage mode* 😊.
-
+    <i>To optimize your viewing experience of this README, please rotate your device in paysage mode 😊.</i>
 </p>
