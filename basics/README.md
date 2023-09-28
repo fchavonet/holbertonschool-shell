@@ -100,8 +100,8 @@ $
 <br>
 Write a script that changes the working directory to the user’s home directory.
 <br>
+	
 - You are not allowed to use any shell variables.
-<br><br>
 	
 ```
 julien@ubuntu:/tmp$ pwd
@@ -195,7 +195,6 @@ Display current directory contents.
 - And hidden files (starting with .).
 
 Example:
-<br><br>
 
 ```
 $ ./5-listfilesdigitonly
