@@ -10,6 +10,10 @@ All of these projects were completed as part of the Holberton School curriculum.
 
 ## 🔨 Tech stack
 
+<p align="left">
+    <img src="https://img.shields.io/badge/VIM-019733?logo=vim&logoColor=white&style=for-the-badge" alt="VIM badge">
+<p>
+
 ## 📋 Requirements
 
 - Allowed editors: vi, vim, emacs
