@@ -6,7 +6,7 @@
 
 All of these projects were completed as part of the Holberton School curriculum. The goal here was to learn the fundamentals of Linux and Bash Shell.
 
-## Files description
+## 📂 Files description
 
 | FILE                                | DESCRIPTION|
 | :---------------------------------: | ---------- |
@@ -16,6 +16,6 @@ All of these projects were completed as part of the Holberton School curriculum.
 | permissions | It focuses on learning Linux file permissions, commands like chmod, sudo, su, chown, and chgrp |
 | README.md | this readme file :wink: |
 
-## Thanks
+## ♥️ Thanks
 
 A big thank you to all my Holberton School peers for their help and support throughout these projects.
