@@ -2,7 +2,7 @@
 
 # Shell, basics
 
-## 📝 Objective
+## 🎓 Objective
 
 All of these projects were completed as part of the Holberton School curriculum. The goal here was to learn the fundamentals of Linux and Bash Shell.
 
@@ -28,7 +28,7 @@ All of these projects were completed as part of the Holberton School curriculum.
 - You are not allowed to use backticks, &&, || or ;
 - All your scripts must be executable. To make your file executable, use the chmod command: chmod u+x file. Later, we’ll learn more about how to utilize this command.
 
-## 🎓 Instructions
+## 📝 Instructions
 
 ## 📂 Files description
 
