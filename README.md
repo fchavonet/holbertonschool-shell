@@ -6,7 +6,7 @@
 
 All of these projects were completed as part of the Holberton School curriculum. The goal here was to learn the fundamentals of Linux and Bash Shell.
 
-**For the best mobile viewing experience of this README, please rotate your device in paysage mode 😊.**
+*For the best mobile viewing experience of this README, please rotate your device in paysage mode 😊.*
 
 ## 📂 Files description
 
