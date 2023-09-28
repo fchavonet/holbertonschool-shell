@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://apply.holbertonschool.com/holberton-logo.png">
-</p>
+![](https://apply.holbertonschool.com/holberton-logo.png)
 
 # SHELL
 
