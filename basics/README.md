@@ -253,7 +253,7 @@ $
 - Directory: basics
 - File: 7-movethatfile
 <hr>
-</detais>
+</details>
 
 <details>
 	<summary>
@@ -275,6 +275,55 @@ $
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 8-firstdelete
+<hr>
+</details>
+
+<details>
+	<summary>
+		<b>Task 9. Bye bye My first directory</b>
+	</summary>
+	<br>
+
+Delete the directory `my_first_directory` that is in the `/tmp` directory.
+
+Example:
+```
+$ ./9-firstdirdeletion
+$ file /tmp/my_first_directory
+/tmp/my_first_directory: cannot open `/tmp/my_first_directory' (No such file or directory)
+$
+```
+#
+**Repo:**
+- GitHub repository: holbertonschool-shell
+- Directory: basics
+- File: 9-firstdirdeletion
+<hr>
+</details>
+
+<details>
+	<summary>
+		<b>Task 10. Back to the future</b>
+	</summary>
+	<br>
+
+Write a script that changes the working directory to the previous one.
+```
+julien@ubuntu:/tmp$ pwd
+/tmp
+julien@ubuntu:/tmp$ cd /var
+julien@ubuntu:/var$ pwd
+/var
+julien@ubuntu:/var$ source ./10-back
+/tmp
+julien@ubuntu:/tmp$ pwd
+/tmp
+```
+#
+**Repo:**
+- GitHub repository: holbertonschool-shell
+- Directory: basics
+- File: 10-back
 <hr>
 </details>
 
