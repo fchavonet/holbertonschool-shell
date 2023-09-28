@@ -1,10 +1,4 @@
-<p align="center">
-	<img src="https://apply.holbertonschool.com/holberton-logo.png">
-	<br>
-	<img src="https://readme-typing-svg.herokuapp.com?font=Open+Sans&weight=900&pause=1000&color=1D5ABD&center=true&vCenter=true&width=500&lines=LEARNING+LEVEL+LINUX" alt="Typing SVG" />
-</p>
-
-# SHELL
+<img  height="50px" src="https://apply.holbertonschool.com/holberton-logo.png"> # SHELL
 
 ## Objective
 
