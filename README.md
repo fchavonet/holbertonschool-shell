@@ -1,4 +1,8 @@
-<img  height="50px" src="https://apply.holbertonschool.com/holberton-logo.png"> # SHELL
+<p align="right">
+  <img  height="50px" src="https://apply.holbertonschool.com/holberton-logo.png">
+</p>
+
+# SHELL
 
 ## Objective
 
