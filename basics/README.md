@@ -154,7 +154,7 @@ $
 		<b>Task 4. Hidden files</b>
 	</summary>
 <br>
-Display current directory contents, including hidden files (starting with `.`).
+Display current directory contents, including hidden files (starting with .).
 <br>
 Use the long format.
 <br><br>
@@ -181,6 +181,41 @@ $
 - Directory: basics
 - File: 4-listmorefiles
 </details>
+
+<details>
+	<summary>
+		<b>Task 5. I love numbers</b>
+	</summary>
+<br>
+Display current directory contents.
+<br>
+- Long format.
+- With user and group IDs displayed numerically.
+- And hidden files (starting with .).
+<br><br>
+Example:
+<br><br>
+
+```
+$ ./5-listfilesdigitonly
+total 56
+drwxr-xr-x@ 6 501 20 204 Jan 25 00:29 .
+drwxr-xr-x@ 43 501 20 1462 Jan 25 00:19 ..
+-rwxr-xr-x@ 1 501 20 18 Jan 25 00:19 0-current_working_directory
+-rwxr-xr-x@ 1 501 20 18 Jan 25 00:23 1-listfiles
+-rwxr-xr-x@ 1 501 20 19 Jan 25 00:29 2-bring_me_home
+-rwxr-xr-x@ 1 501 20 20 Jan 25 00:39 3-listfiles
+-rwxr-xr-x@ 1 501 20 18 Jan 25 00:41 4-listmorefiles
+-rwxr-xr-x@ 1 501 20 18 Jan 25 00:43 5-listfilesdigitonly
+-rwxr-xr-x@ 1 501 20 18 Jan 25 00:20 README.md
+$
+```
+
+#
+**Repo:**
+- GitHub repository: holbertonschool-shell
+- Directory: basics
+- File: 5-listfilesdigitonly
 
 
 ## 📂 Files description
