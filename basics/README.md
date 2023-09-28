@@ -44,7 +44,9 @@ At the end of this project, I am expected to be able to explain to anyone, witho
 - A README.md file at the root of the repo, containing a description of the repository
 - A README.md file, at the root of the folder of this project, describing what each script is doing
 - You are not allowed to use backticks, &&, || or ;
-- All your scripts must be executable. To make your file executable, use the chmod command: chmod u+x file. Later, we’ll learn more about how to utilize this command.
+- All your scripts must be executable.
+  To make your file executable, use the chmod command: chmod u+x file.
+  Later, we’ll learn more about how to utilize this command.
 
 ## 📝 Instructions
 
