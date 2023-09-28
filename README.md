@@ -9,13 +9,13 @@
 
 # Files description
 
-| FILE                                | DESCRIPTION                                                               |
-|:---------------------------------  :|:-------------------------------------------------------------------------:|
-| basics                              | It focuses on learning Linux file system naviman pages, and usinsh shell. |
-| init_files_variables_and_expansions | It focuses on learning shell initialization files, variables (local and . |
-| io_redirections_and_filters         | |
-| permissions                         | |
-| README.md                           | |
+| FILE                                  | DESCRIPTION                                                                 |
+| :---------------------------------  : | :-------------------------------------------------------------------------: |
+| basics                                | It focuses on learning file system navigation, file manipulation, command understanding, reading man pages, and using keyboard shortcuts for the Bash shell. |
+| init_files_variables_and_expansions   | It focuses on learning Bash shell initialization files, variables (local and global), expansions, shell arithmetic, and creating aliases. |
+| io_redirections_and_filters           |                                                                             |
+| permissions                           |                                                                             |
+| README.md                             |                                                                             |
 
 # Thanks
 
