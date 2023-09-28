@@ -52,7 +52,7 @@ All of these projects were completed as part of the Holberton School curriculum.
 | `15-lets_move` | |
 | `16-clean_emacs` | |
 | `17-tree` | |
-| `README.md` | |
+| `README.md` | The readme file you are currently reading 😉. |
 
 
 
