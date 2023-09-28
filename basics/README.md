@@ -189,9 +189,11 @@ $
 <br>
 Display current directory contents.
 <br>
+	
 - Long format.
 - With user and group IDs displayed numerically.
 - And hidden files (starting with .).
+
 <br><br>
 Example:
 <br><br>
