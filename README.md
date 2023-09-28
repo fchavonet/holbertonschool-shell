@@ -1,6 +1,4 @@
-<p align="right">
-  <img  height="50px" src="https://apply.holbertonschool.com/holberton-logo.png">
-</p>
+<img  height="50px" align="right" src="https://apply.holbertonschool.com/holberton-logo.png">
 
 # SHELL
 
