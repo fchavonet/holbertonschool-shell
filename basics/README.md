@@ -417,6 +417,7 @@ You can consider that all HTML files have the extension `.html`
 	<br>
 
 Create a script that moves all files beginning with an uppercase letter to the directory `/tmp/u`.
+
 You can assume that the directory `/tmp/u` will exist when we will run your script
 ```
 ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la
@@ -483,6 +484,7 @@ ubuntu@ip-172-31-63-244:/tmp/emacs$
 	<br>
 
 Create a script that creates the directories `welcome/`, `welcome/to/` and `welcome/to/school` in the current directory.
+
 You are only allowed to use two spaces (and lines) in your script, not more.
 ```
 julien@ubuntu:/tmp/h$ ls -l
