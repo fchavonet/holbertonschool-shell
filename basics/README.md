@@ -48,13 +48,13 @@ At the end of this project, I had to be able to explain to anyone, without the h
 
 ## 📂 Files description
 
-| **FILE**                              | **DESCRIPTION**                                                                                                                 |
-| :-----------------------------------: | ------------------------------------------------------------------------------------------------------------------------------- |
-| `0-current_working_directory`         | Focuses on fundamental file system navigation, manipulation, command usage, and Bash Shell shortcuts.                           |
-| `1-listit` | Covers Bash Shell initialization files, local and global variables, expansions, Shell arithmetic, and alias creation.           |
-| `2-bring_me_home`         | Explores essential Linux Shell commands and techniques related to I/O redirection, including stream manipulation and filtering. |
-| `3-listfiles`                         | Dives into Linux file permissions and related commands like chmod, sudo, su, chown, and chgrp.                                  |
-| `4-listmorefiles`                           | The readme file you are currently reading 😉.                                                                                  |
+| **FILE** | **DESCRIPTION** |
+| :-----: | ----- |
+| `0-current_working_directory` | |
+| `1-listit` | |
+| `2-bring_me_home` | |
+| `3-listfiles` | |
+| `4-listmorefiles` | |
 | `5-listfilesdigitonly` | |
 | `6-firstdirectory` | |
 | `7-movethatfile` | |
