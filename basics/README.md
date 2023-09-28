@@ -4,27 +4,27 @@
 
 ## 🎓 Objective
 
-At the end of this project, I am expected to be able to explain to anyone, without the help of Google:
+At the end of this project, I had to be able to explain to anyone, without the help of Google :
 
-- What does RTFM mean.
-- What is the Shell.
-- What is the difference between a terminal and a Shell.
-- What is a Shebang.
-- What is the Shell prompt.
+- What does **RTFM** mean?
+- What is the **Shell**?
+- What is the difference between a **Terminal** and a **Shell**?
+- What is a **Shebang**?
+- What is the Shell prompt?
 - How to use the history (the basics).
-- What do the commands or built-ins `cd`, `pwd`, `ls` do.
+- What do the commands or built-ins `cd`, `pwd`, `ls` do?
 - How to navigate the file system.
-- What do the commands `ls`, `less`, `file` do.
-- How do you use options and arguments with commands.
-- Understand the ls long format and how to display it.
-- What are the characteristics of hidden files and how to list them.
-- What is the difference between a hard link and a symbolic link.
+- What do the commands `ls`, `less`, `file` do ?
+- How do you use **options** and **arguments** with commands.
+- Understand the `ls` long format and how to display it.
+- What are the characteristics of **hidden files** and how to list them.
+- What is the difference between a **hard link** and a **symbolic link**?
 - What do the commands `cp`, `mv`, `rm`, `mkdir` do.
-- What are wildcards and how do they work.
-- What is an alias.
-- How to read a man page.
+- What are **wildcards** and how do they work.
+- What is an **alias**?
+- How to read a **man page**.
 - Common shortcuts for Bash.
-- What does LTS mean.
+- What does **LTS** mean?
 
 ## 🔨 Tech stack
 
