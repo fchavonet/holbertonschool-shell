@@ -19,8 +19,3 @@
 ## Thanks
 
 A big thank you to all my Holberton School peers for their help and support throughout these projects.
-
-## Authors
-
-**Fabien CHAVONET**
-- Github: [@fchavonet](https://github.com/fchavonet)
