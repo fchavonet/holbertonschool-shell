@@ -20,5 +20,7 @@ All of these projects were completed as part of the Holberton School curriculum.
 
 A big thank you to all my Holberton School peers for their help and support throughout these projects.
 
+##
+
 <br>
 <a href="https://www.holbertonschool.fr/campus/toulouse/" target="_blank" ><img src="https://blog.holbertonschool.com/wp-content/uploads/2022/01/Capture-decran-2022-01-11-172847.png" alt="Holberton Toulouse"></a>
