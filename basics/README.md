@@ -50,12 +50,11 @@ At the end of this project, I had to be able to explain to anyone, without the h
 	<summary>
 		<b>Task 0. Where am I?</b>
 	</summary>
-<br>
-	
+	<br>
+
 Write a script that prints the absolute path name of the current working directory.
 
 Example:
-	
 ```
 $ ./0-current_working_directory
 /basics
@@ -66,30 +65,30 @@ $
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 0-current_working_directory
+<br>
 </details>
 
 <details>
 	<summary>
 		<b>Task 1. What’s in there?</b>
 	</summary>
-<br>
-	
+	<br>
+
 Display the contents list of your current directory.
 
 Example:
-
 ```
 $ ./1-listit
 Applications    Documents   Dropbox Movies Pictures
 Desktop Downloads   Library Music Public
 $
 ```
-
 #
 **Repo:**
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 1-listit
+<br>
 </details>
 
 <details>
