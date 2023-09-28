@@ -61,8 +61,8 @@ $ ./0-current_working_directory
 /basics
 $
 ```
-##
-Repo:
+#
+**Repo:**
 
 - GitHub repository: holbertonschool-shell
 - Directory: basics
@@ -85,8 +85,8 @@ Applications    Documents   Dropbox Movies Pictures
 Desktop Downloads   Library Music Public
 $
 ```
-##
-Repo:
+#
+**Repo:**
 
 - GitHub repository: holbertonschool-shell
 - Directory: basics
@@ -113,12 +113,40 @@ julien@ubuntu:~$ pwd
 /home/julien
 julien@ubuntu:~$ 
 ```
-##
-Repo:
+#
+**Repo:**
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 2-bring_me_home
 
+<details>
+	<summary>
+		<b>Task 3. The long format</b>
+	</summary>
+<br>
+Display current directory contents in a long format
+<br><br>
+Example:
+<br><br>
+
+```
+$ ./3-listfiles
+total 40
+-rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:19 0-current_working_directory
+-rwxr-xr-x@ 1 sylvain staff 19 Jan 25 00:23 1-listit
+-rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:29 2-bring_me_home
+-rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:39 3-listfiles
+-rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:20 README.md
+$
+```
+#
+**Repo:**
+
+- GitHub repository: holbertonschool-shell
+- Directory: basics
+- File: 3-listfiles
+
+ 
 ## 📂 Files description
 
 | **FILE** | **DESCRIPTION** |
