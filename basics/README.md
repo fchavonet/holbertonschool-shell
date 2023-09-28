@@ -52,17 +52,16 @@ At the end of this project, I had to be able to explain to anyone, without the h
 	</summary>
 <br>
 Write a script that prints the absolute path name of the current working directory.
-<br>
+<br><br>
 Example:
-
+<br>
+	
 ```
 $ ./0-current_working_directory
 /basics
 $
 ```
-
 ##
-
 Repo:
 
 - GitHub repository: holbertonschool-shell
@@ -76,8 +75,9 @@ Repo:
 	</summary>
 <br>
 Display the contents list of your current directory.
-<br>
+<br><br>
 Example:
+<br>
 
 ```
 $ ./1-listit
