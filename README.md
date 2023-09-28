@@ -12,9 +12,9 @@
 | :---------------------------------: | ---------- |
 | basics                              | It focuses on learning file system navigation, file manipulation, command understanding, reading man pages, and using keyboard shortcuts for the Bash shell. |
 | init_files_variables_and_expansions | It focuses on learning Bash shell initialization files, variables (local and global), expansions, shell arithmetic, and creating aliases.  |
-| io_redirections_and_filters | Row 3    |
-| permissions | Row 3    |
-| README.md | Row 3    |
+| io_redirections_and_filters | It focuses on learning essential Linux shell commands and techniques related to I/O redirection, including commands like head, tail, find, wc, sort, uniq, grep, tr, and how to manipulate input and output streams |
+| permissions | It focuses on learning Linux file permissions, commands like chmod, sudo, su, chown, and chgrp |
+| README.md | this readme file :wink: |
 
 ## Thanks
 
