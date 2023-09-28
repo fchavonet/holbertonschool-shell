@@ -65,7 +65,6 @@ $
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 0-current_working_directory
-<br>
 </details>
 
 <details>
@@ -88,19 +87,16 @@ $
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 1-listit
-<br>
 </details>
 
 <details>
 	<summary>
 		<b>Task 2. There is no place like home</b>
 	</summary>
-<br>
+	<br>
+
 Write a script that changes the working directory to the user’s home directory.
-<br>
-	
 - You are not allowed to use any shell variables.
-	
 ```
 julien@ubuntu:/tmp$ pwd
 /tmp
@@ -111,7 +107,6 @@ julien@ubuntu:~$ pwd
 /home/julien
 julien@ubuntu:~$ 
 ```
-
 #
 **Repo:**
 - GitHub repository: holbertonschool-shell
@@ -123,12 +118,11 @@ julien@ubuntu:~$
 	<summary>
 		<b>Task 3. The long format</b>
 	</summary>
-<br>
-Display current directory contents in a long format
-<br><br>
-Example:
-<br><br>
+	<br>
 
+Display current directory contents in a long format
+
+Example:
 ```
 $ ./3-listfiles
 total 40
@@ -139,7 +133,6 @@ total 40
 -rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:20 README.md
 $
 ```
-
 #
 **Repo:**
 - GitHub repository: holbertonschool-shell
@@ -151,14 +144,12 @@ $
 	<summary>
 		<b>Task 4. Hidden files</b>
 	</summary>
-<br>
+	<br>
+	
 Display current directory contents, including hidden files (starting with .).
-<br>
 Use the long format.
-<br><br>
-Example:
-<br><br>
 
+Example:
 ```
 $ ./4-listmorefiles
 total 48
@@ -172,7 +163,6 @@ drwxr-xr-x@ 43 sylvain staff 1462 Jan 25 00:19 ..
 -rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:20 README.md
 $
 ```
-
 #
 **Repo:**
 - GitHub repository: holbertonschool-shell
@@ -184,17 +174,14 @@ $
 	<summary>
 		<b>Task 5. I love numbers</b>
 	</summary>
-<br>
+	<br>
+
 Display current directory contents.
-<br>
-	
 - Long format.
 - With user and group IDs displayed numerically.
 - And hidden files (starting with .).
 
 Example:
-<br>
-
 ```
 $ ./5-listfilesdigitonly
 total 56
@@ -209,7 +196,6 @@ drwxr-xr-x@ 43 501 20 1462 Jan 25 00:19 ..
 -rwxr-xr-x@ 1 501 20 18 Jan 25 00:20 README.md
 $
 ```
-
 #
 **Repo:**
 - GitHub repository: holbertonschool-shell
