@@ -1,6 +1,6 @@
 <img  height="50px" align="right" src="https://apply.holbertonschool.com/holberton-logo.png">
 
-# Linux and Bash Shell Fundamentals
+# Bash Shell fundamentals
 
 ## 📝 Objective
 
