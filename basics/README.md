@@ -88,7 +88,7 @@ $
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 1-listit
-##
+<hr>
 </details>
 
 <details>
@@ -114,7 +114,7 @@ julien@ubuntu:~$
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 2-bring_me_home
-##
+<hr>
 </details>
 
 <details>
@@ -141,7 +141,7 @@ $
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 3-listfiles
-##
+<hr>
 </details>
 
 <details>
@@ -172,7 +172,7 @@ $
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 4-listmorefiles
-##
+<hr>
 </details>
 
 <details>
@@ -206,7 +206,7 @@ $
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 5-listfilesdigitonly
-##
+<hr>
 </details>
 
 <details>
@@ -229,7 +229,53 @@ $
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 6-firstdirectory
-##
+<hr>
+</details>
+
+<details>
+	<summary>
+		<b>Task 7. Betty in my first directory</b>
+	</summary>
+	<br>
+
+Move the file betty from `/tmp/` to `/tmp/my_first_directory`.
+
+Example:
+```
+$ ./7-movethatfile
+$ ls /tmp/my_first_directory/
+betty
+$
+```
+#
+**Repo:**
+- GitHub repository: holbertonschool-shell
+- Directory: basics
+- File: 7-movethatfile
+<hr>
+</detais>
+
+<details>
+	<summary>
+		<b>Task 8. Bye bye Betty</b>
+	</summary>
+	<br>
+
+Delete the file `betty`.
+- The file betty is in `/tmp/my_first_directory`
+
+Example:
+```
+ ./8-firstdelete
+$ ls /tmp/my_first_directory/
+$
+```
+#
+**Repo:**
+- GitHub repository: holbertonschool-shell
+- Directory: basics
+- File: 8-firstdelete
+<hr>
 </details>
 
 ## 📂 Files description
