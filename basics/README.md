@@ -40,7 +40,7 @@ At the end of this project, I had to be able to explain to anyone, without the h
 - All my scripts will be tested on Ubuntu.
 - All my scripts should be exactly two lines long (`$ wc -l file` should print 2).
 - All my files should end with a new line (why?).
-- The first line of all my files should be exactly #!/bin/bash.
+- The first line of all my files should be exactly `#!/bin/bash`.
 - I am not allowed to use backticks, `&&`, `||` or `;`.
 - All my scripts must be executable.
 
