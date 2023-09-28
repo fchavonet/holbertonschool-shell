@@ -46,6 +46,8 @@ At the end of this project, I had to be able to explain to anyone, without the h
 
 ## 📝 Instruction
 
+### <span id="mandatory-tasks">Mandatory tasks</span>
+
 <details>
 	<summary>
 		<b>Task 0. Where am I?</b>
@@ -388,6 +390,125 @@ lrwxrwxrwx  1 ubuntu ubuntu      7 Sep 20 03:24 __ls__ -> /bin/ls
 - GitHub repository: `holbertonschool-shell`.
 - Directory: `basics`.
 - File: `13-symbolic_link`.
+<hr>
+</details>
+
+<details>
+	<summary>
+		<b>Task 14. Copy HTML files</b>
+	</summary>
+	<br>
+
+Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+
+You can consider that all HTML files have the extension `.html`
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `basics`.
+- File: `14-copy_html`.
+<hr>
+</details>
+
+<details>
+	<summary>
+		<b>Task 15. Let’s move</b>
+	</summary>
+	<br>
+
+Create a script that moves all files beginning with an uppercase letter to the directory `/tmp/u`.
+You can assume that the directory `/tmp/u` will exist when we will run your script
+```
+ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la
+total 148
+drwxrwxr-x  3 ubuntu ubuntu   4096 Sep 20 03:33 .
+drwxrwxrwt 12 root   root   139264 Sep 20 03:26 ..
+-rw-rw-r--  1 ubuntu ubuntu      0 Sep 20 03:32 My_file
+lrwxrwxrwx  1 ubuntu ubuntu      7 Sep 20 03:24 __ls__ -> /bin/ls
+-rw-rw-r--  1 ubuntu ubuntu      0 Sep 20 03:32 Elif_ym
+-rw-rw-r--  1 ubuntu ubuntu      0 Sep 20 03:32 random_file
+ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la /tmp/u
+total 8
+drwxrwxr-x 2 ubuntu ubuntu 4096 Sep 20 03:33 .
+drwxrwxr-x 3 ubuntu ubuntu 4096 Sep 20 03:33 ..
+ubuntu@ip-172-31-63-244:/tmp/sym$ ./15-lets_move
+ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la
+total 148
+drwxrwxr-x  3 ubuntu ubuntu   4096 Sep 20 03:33 .
+drwxrwxrwt 12 root   root   139264 Sep 20 03:26 ..
+lrwxrwxrwx  1 ubuntu ubuntu      7 Sep 20 03:24 __ls__ -> /bin/ls
+-rw-rw-r--  1 ubuntu ubuntu      0 Sep 20 03:32 random_file
+ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la /tmp/u
+total 8
+drwxrwxr-x 2 ubuntu ubuntu 4096 Sep 20 03:33 .
+drwxrwxr-x 3 ubuntu ubuntu 4096 Sep 20 03:33 ..
+-rw-rw-r-- 1 ubuntu ubuntu    0 Sep 20 03:32 My_file
+-rw-rw-r-- 1 ubuntu ubuntu    0 Sep 20 03:32 Elif_ym
+```
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`
+- Directory: `basics`.
+- File: `15-lets_move`.
+<hr>
+</details>
+
+<details>
+	<summary>
+		<b>Task 16. Clean Emacs</b>
+	</summary>
+	<br>
+
+Create a script that deletes all files in the current working directory that end with the character `~`.
+```
+ubuntu@ip-172-31-63-244:/tmp/sym$ ls
+main.c  main.c~  Makefile~
+ubuntu@ip-172-31-63-244:/tmp/sym$ ./16-clean_emacs
+ubuntu@ip-172-31-63-244:/tmp/emacs$ ls
+main.c
+ubuntu@ip-172-31-63-244:/tmp/emacs$
+```
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `basics`.
+- File: `16-clean_emacs`.
+<hr>
+</details>
+
+<details>
+	<summary>
+		<b>Task 17. Tree</b>
+	</summary>
+	<br>
+
+Create a script that creates the directories `welcome/`, `welcome/to/` and `welcome/to/school` in the current directory.
+You are only allowed to use two spaces (and lines) in your script, not more.
+```
+julien@ubuntu:/tmp/h$ ls -l
+total 4
+-rwxrw-r-- 1 julien julien 44 Sep 20 12:09 17-tree
+julien@ubuntu:/tmp/h$ wc -l 17-tree 
+2 17-tree
+julien@ubuntu:/tmp/h$ head -1 17-tree 
+#!/bin/bash
+julien@ubuntu:/tmp/h$ tr -cd ' ' < 17-tree | wc -c # you do not have to understand this yet, but the result should be 2, 1 or 0
+2
+julien@ubuntu:/tmp/h$ ./17-tree 
+julien@ubuntu:/tmp/h$ ls
+17-tree  welcome
+julien@ubuntu:/tmp/h$ ls welcome/
+to
+julien@ubuntu:/tmp/h$ ls -l welcome/to
+total 4
+drwxrwxr-x 2 julien julien 4096 Sep 20 12:11 school
+julien@ubuntu:/tmp/h$
+```
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `basics`.
+- File: `17-tree`.
 <hr>
 </details>
 
