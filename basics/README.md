@@ -201,7 +201,29 @@ $
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 5-listfilesdigitonly
+</details>
 
+<details>
+	<summary>
+		<b>Task 6. Welcome</b>
+	</summary>
+	<br>
+
+Create a script that creates a directory named `my_first_directory` in the `/tmp/ directory.
+
+Example:
+```
+$ ./6-firstdirectory
+$ file /tmp/my_first_directory/
+/tmp/my_first_directory/: directory
+$
+```
+#
+**Repo:**
+- GitHub repository: holbertonschool-shell
+- Directory: basics
+- File: 6-firstdirectory
+- </details>
 
 ## 📂 Files description
 
