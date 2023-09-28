@@ -55,11 +55,11 @@ At the end of this project, I had to be able to explain to anyone, without the h
 
 	Example:
 
-	```
-	$ ./0-current_working_directory
-	/basics
-	$
-	```
+```
+$ ./0-current_working_directory
+/basics
+$
+```
 
 	##
 
