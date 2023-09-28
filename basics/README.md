@@ -6,66 +6,32 @@
 
 At the end of this project, I am expected to be able to explain to anyone, without the help of Google:
 
-### General
-- What does RTFM mean?
-- What is a Shebang
+- What does RTFM mean.
+- What is the Shell.
+- What is the difference between a terminal and a Shell.
+- What is a Shebang.
+- What is the Shell prompt.
+- How to use the history (the basics).
 
-### What is the Shell
-- What is the Shell
-- What is the difference between a terminal and a shell
-- What is the shell prompt
-- How to use the history (the basics)
+- What do the commands or built-ins `cd`, `pwd`, `ls` do.
+- How to navigate the file system.
 
-### Navigation
-- What do the commands or built-ins cd, pwd, ls do
-- How to navigate the filesystem
-- What are the . and .. directories
-- What is the working directory, how to print it and how to change it
-- What is the root directory
-- What is the home directory, and how to go there
-- What is the difference between the root directory and the home directory of the user root
-- What are the characteristics of hidden files and how to list them
-- What does the command cd - do
-
-### Looking Around
-- What do the commands ls, less, file do
-- How do you use options and arguments with commands
-- Understand the ls long format and how to display it
-- A Guided Tour
-- What does the ln command do
-- What do you find in the most common/important directories
-- What is a symbolic link
-- What is a hard link
-- What is the difference between a hard link and a symbolic link
-
-### Manipulating Files
-- What do the commands cp, mv, rm, mkdir do
-- What are wildcards and how do they work
-- How to use wildcards
-
-### Working with Commands
-- What do type, which, help, man commands do
-- What are the different kinds of commands
-- What is an alias
-- When do you use the command help instead of man
-
-### Reading Man Pages
-- How to read a man page
-- What are man page sections
-- What are the section numbers for User commands, System calls and Library functions
-
-### Keyboard Shortcuts for Bash
-- Common shortcuts for Bash
-
-### LTS
-- What does LTS mean?
-
-*To optimize your viewing experience of this README, please rotate your device in paysage mode* 😊.
+- What do the commands `ls`, `less`, `file` do.
+- How do you use options and arguments with commands.
+- Understand the ls long format and how to display it.
+- What are the characteristics of hidden files and how to list them.
+- What is the difference between a hard link and a symbolic link.
+- What do the commands `cp`, `mv`, `rm`, `mkdir` do.
+- What are wildcards and how do they work.
+- What is an alias.
+- How to read a man page.
+- Common shortcuts for Bash.
+- What does LTS mean.
 
 ## 🔨 Tech stack
 
 <p align="left">
-    <img src="https://img.shields.io/badge/SHELL-000000?logo=powershell&logoColor=white&style=for-the-badge" alt="Shell badge">
+    <img src="https://img.shields.io/badge/Shell-000000?logo=powerShell&logoColor=white&style=for-the-badge" alt="Shell badge">
     <img src="https://img.shields.io/badge/UBUNTU-e95420?logo=ubuntu&logoColor=white&style=for-the-badge" alt="Ubuntu badge">
     <img src="https://img.shields.io/badge/VIM-019733?logo=vim&logoColor=white&style=for-the-badge" alt="VIM badge">
 <p>
@@ -113,3 +79,7 @@ At the end of this project, I am expected to be able to explain to anyone, witho
 ## ♥️ Thanks
 
 A big thank you to all my Holberton School peers for their help and support throughout these projects.
+
+<p align="right">
+*To optimize your viewing experience of this README, please rotate your device in paysage mode* 😊.
+</p>
