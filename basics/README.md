@@ -61,7 +61,6 @@ $ ./0-current_working_directory
 /basics
 $
 ```
-
 #
 **Repo:**
 - GitHub repository: holbertonschool-shell
