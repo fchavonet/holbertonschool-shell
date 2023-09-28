@@ -61,9 +61,9 @@ $ ./0-current_working_directory
 /basics
 $
 ```
+
 #
 **Repo:**
-
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 0-current_working_directory
@@ -85,9 +85,9 @@ Applications    Documents   Dropbox Movies Pictures
 Desktop Downloads   Library Music Public
 $
 ```
+
 #
 **Repo:**
-
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 1-listit
@@ -113,6 +113,7 @@ julien@ubuntu:~$ pwd
 /home/julien
 julien@ubuntu:~$ 
 ```
+
 #
 **Repo:**
 - GitHub repository: holbertonschool-shell
@@ -139,12 +140,48 @@ total 40
 -rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:20 README.md
 $
 ```
+
 #
 **Repo:**
-
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 3-listfiles
+</details>
+
+<details>
+	<summary>
+		<b>Task 4. Hidden files</b>
+	</summary>
+<br>
+Display current directory contents, including hidden files (starting with .).
+<br>
+Use the long format.
+<br><br>
+Example:
+<br><br>
+
+```
+$ ./4-listmorefiles
+total 48
+drwxr-xr-x@ 6 sylvain staff 204 Jan 25 00:29 .
+drwxr-xr-x@ 43 sylvain staff 1462 Jan 25 00:19 ..
+-rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:19 0-current_working_directory
+-rwxr-xr-x@ 1 sylvain staff 19 Jan 25 00:23 1-listit
+-rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:29 2-bring_me_home
+-rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:39 3-listfiles
+-rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:41 4-listmorefiles
+-rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:20 README.md
+$
+```
+
+#
+**Repo:**
+- GitHub repository: holbertonschool-shell
+- Directory: basics
+- File: 4-listmorefiles
+</details>
+
+
 
  
 ## 📂 Files description
