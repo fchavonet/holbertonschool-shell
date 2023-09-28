@@ -2,7 +2,7 @@
 
 # The Bash Shell
 
-## Objective
+## 📝 Objective
 
 All of these projects were completed as part of the Holberton School curriculum. The goal here was to learn the fundamentals of Linux and Bash Shell.
 
