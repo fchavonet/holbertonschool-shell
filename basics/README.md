@@ -119,6 +119,7 @@ julien@ubuntu:~$
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 2-bring_me_home
+</details>
 
 <details>
 	<summary>
@@ -182,8 +183,6 @@ $
 </details>
 
 
-
- 
 ## 📂 Files description
 
 | **FILE** | **DESCRIPTION** |
