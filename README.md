@@ -11,8 +11,8 @@
 
 | FILE                                | DESCRIPTION                                       |
 |:---------------------------------  :|:-------------------------------------------------:|
-| basics                              | It focuses on learning Linux file system navigation, file manipulation, command understanding, reading man pages, and using keyboard shortcuts for the Bash shell.
-| init_files_variables_and_expansions | It focuses on learning shell initialization files, variables (local and global), expansions, shell arithmetic, and creating aliases.
+| basics                              | It focuses on learning Linux file system navigation, file manipulation, command understanding, reading man pages, and using keyboard shortcuts for the Bash shell. |
+| init_files_variables_and_expansions | It focuses on learning shell initialization files, variables (local and global), expansions, shell arithmetic, and creating aliases. |
 | io_redirections_and_filters         |
 | permissions                         |
 | README.md                           |
