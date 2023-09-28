@@ -51,10 +51,10 @@ At the end of this project, I had to be able to explain to anyone, without the h
 		<b>Task 0. Where am I?</b>
 	</summary>
 <br>
+	
 Write a script that prints the absolute path name of the current working directory.
-<br><br>
+
 Example:
-<br><br>
 	
 ```
 $ ./0-current_working_directory
@@ -74,10 +74,10 @@ $
 		<b>Task 1. What’s in there?</b>
 	</summary>
 <br>
+	
 Display the contents list of your current directory.
-<br><br>
+
 Example:
-<br><br>
 
 ```
 $ ./1-listit
