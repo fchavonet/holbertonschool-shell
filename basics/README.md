@@ -65,7 +65,7 @@ $
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 0-current_working_directory
-#
+##
 </details>
 
 <details>
@@ -88,6 +88,7 @@ $
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 1-listit
+##
 </details>
 
 <details>
@@ -113,6 +114,7 @@ julien@ubuntu:~$
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 2-bring_me_home
+##
 </details>
 
 <details>
@@ -139,6 +141,7 @@ $
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 3-listfiles
+##
 </details>
 
 <details>
@@ -169,6 +172,7 @@ $
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 4-listmorefiles
+##
 </details>
 
 <details>
@@ -202,6 +206,7 @@ $
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 5-listfilesdigitonly
+##
 </details>
 
 <details>
@@ -224,6 +229,7 @@ $
 - GitHub repository: holbertonschool-shell
 - Directory: basics
 - File: 6-firstdirectory
+##
 </details>
 
 ## 📂 Files description
