@@ -146,6 +146,64 @@ Write a script that creates an empty file called `hello`.
 <hr>
 </details>
 
+<details>
+	<summary>
+		<b>Task 5. Execute</b>
+	</summary>
+	<br>
+
+Write a script that adds execute permission to the owner of the file `hello`.
+- The file `hello` will be in the working directory.
+```julien@ubuntu:/tmp/h$ ls -l
+total 8
+-rwxrw-r-- 1 julien julien 28 Sep 20 14:26 5-execute
+-rw-rw-r-- 1 julien julien 23 Sep 20 14:25 hello
+julien@ubuntu:/tmp/h$ ./hello
+bash: ./hello: Permission denied
+julien@ubuntu:/tmp/h$ ./5-execute 
+julien@ubuntu:/tmp/h$ ls -l
+total 8
+-rwxrw-r-- 1 julien julien 28 Sep 20 14:26 5-execute
+-rwxrw-r-- 1 julien julien 23 Sep 20 14:25 hello
+julien@ubuntu:/tmp/h$ 
+
+```
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `permissions`.
+- File: `5-execute`.
+<hr>
+</details>
+
+<details>
+	<summary>
+		<b>Task 6. Multiple permissions</b>
+	</summary>
+	<br>
+
+Write a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file `hello`.
+- The file `hello` will be in the working directory.
+```
+julien@ubuntu:/tmp/h$ ls -l
+total 8
+-rwxrw-r-- 1 julien julien 36 Sep 20 14:31 6-multiple_permissions
+-rw-r----- 1 julien julien 23 Sep 20 14:25 hello
+julien@ubuntu:/tmp/h$ ./6-multiple_permissions 
+julien@ubuntu:/tmp/h$ ls -l
+total 8
+-rwxrw-r-- 1 julien julien 36 Sep 20 14:31 6-multiple_permissions
+-rwxr-xr-- 1 julien julien 23 Sep 20 14:25 hello
+julien@ubuntu:/tmp/h$ 
+```
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `permissions`.
+- File: `6-multiple_permissions`.
+<hr>
+</details>
+
 ## 📂 Files description
 
 | **FILE** | **DESCRIPTION** |
