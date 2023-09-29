@@ -454,6 +454,65 @@ julien@ubuntu:/tmp/h$
 <hr>
 </details>
 
+<details>
+	<summary>
+		<b>Task 15. Symbolic links</b>
+	</summary>
+	<br
+
+Write a script that changes the owner and the group owner of `_hello` to `vincent` and `staff` respectively.
+- The file `_hello` is in the working directory.
+- The file `_hello` is a symbolic link.
+```
+julien@ubuntu:/tmp/h$ ls -l
+total 24
+-rwxrwxr-x 1 julien julien   44 Sep 20 15:12 15-symbolic_link_permissions
+-rw-rw-r-- 1 julien julien   23 Sep 20 14:25 hello
+lrwxrwxrwx 1 julien julien    5 Sep 20 15:10 _hello -> hello
+julien@ubuntu:/tmp/h$ sudo ./15-symbolic_link_permissions 
+julien@ubuntu:/tmp/h$ ls -l
+total 24
+-rwxrwxr-x 1 julien julien      44 Sep 20 15:12 15-symbolic_link_permissions
+-rw-rw-r-- 1 julien julien      23 Sep 20 14:25 hello
+lrwxrwxrwx 1 vincent  staff    5 Sep 20 15:10 _hello -> hello
+julien@ubuntu:/tmp/h$ 
+```
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `permissions`.
+- File: `15-symbolic_link_permissions`.
+<hr>
+</details>
+
+<details>
+	<summary>
+		<b>Task 16. If only</b>
+	</summary>
+	<br
+
+Write a script that changes the owner of the file `hello` to `vincent` only if it is owned by the user `guillaume`.
+- The file `hello` will be in the working directory.
+```
+julien@ubuntu:/tmp/h$ ls -l
+total 24
+-rwxrwxr-x 1 julien    julien      47 Sep 20 15:18 16-if_only 
+-rw-rw-r-- 1 guillaume julien      23 Sep 20 14:25 hello
+julien@ubuntu:/tmp/h$ sudo ./16-if_only 
+julien@ubuntu:/tmp/h$ ls -l
+total 24
+-rwxrwxr-x 1 julien julien      47 Sep 20 15:18 16-if_only 
+-rw-rw-r-- 1 vincent  julien      23 Sep 20 14:25 hello
+julien@ubuntu:/tmp/h$ 
+```
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `permissions`.
+- File: `16-if_only`.
+<hr>
+</details>
+
 ## 📂 Files description
 
 | **FILE** | **DESCRIPTION** |
