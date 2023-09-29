@@ -339,6 +339,266 @@ julien@ubuntu:/tmp/h$
 <hr>
 </details>
 
+<details>
+	<summary>
+		<b>Task 9. Duplicate last line</b>
+	</summary>
+	<br>
+
+Write a script that duplicates the last line of the file `iacta`.
+- The file `iacta` will be in the working directory.
+```
+julien@ubuntu:/tmp/h$ cat iacta 
+Alea iacta est
+
+Alea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius
+(as iacta alea est) to Julius Caesar on January 10, 49 BC
+as he led his army across the Rubicon river in Northern Italy. With this step,
+he entered Italy at the head of his army in defiance of the Senate and began
+his long civil war against Pompey and the Optimates. The phrase has been
+adopted in Italian (Il dado è tratto), Romanian (Zarurile au fost aruncate),
+Spanish (La suerte está echada), French (Les dés sont jetés), Portuguese (A
+sorte está lançada), Dutch (De teerling is geworpen),
+German (Der Würfel ist gefallen), Hungarian (A kocka el van vetve) and many other languages to
+indicate that events have passed a point of no return.
+
+Read more: https://en.wikipedia.org/wiki/Alea_iacta_est
+julien@ubuntu:/tmp/h$ ./9-duplicate_last_line 
+julien@ubuntu:/tmp/h$ cat iacta 
+Alea iacta est
+
+Alea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius
+(as iacta alea est) to Julius Caesar on January 10, 49 BC
+as he led his army across the Rubicon river in Northern Italy. With this step,
+he entered Italy at the head of his army in defiance of the Senate and began
+his long civil war against Pompey and the Optimates. The phrase has been
+adopted in Italian (Il dado è tratto), Romanian (Zarurile au fost aruncate),
+Spanish (La suerte está echada), French (Les dés sont jetés), Portuguese (A
+sorte está lançada), Dutch (De teerling is geworpen),
+German (Der Würfel ist gefallen), Hungarian (A kocka el van vetve) and many other languages to
+indicate that events have passed a point of no return.
+
+Read more: https://en.wikipedia.org/wiki/Alea_iacta_est
+Read more: https://en.wikipedia.org/wiki/Alea_iacta_est
+julien@ubuntu:/tmp/h$ 
+```
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `io_redirections_and_filters`.
+- File: `9-duplicate_last_line`.
+<hr>
+</details>
+
+<details>
+	<summary>
+		<b>Task 10. No more javascript</b>
+	</summary>
+	<br>
+
+Write a script that deletes all the regular files (not the directories) with a `.js` extension that are present in the current directory and all its subfolders.
+```
+julien@ubuntu:/tmp/h$ ls -lR
+.:
+total 24
+-rwxrw-r-- 1 julien julien   49 Sep 20 18:29 10-no_more_js
+drwxrwxr-x 2 julien julien 4096 Sep 20 18:23 dir1
+drwxrwxr-x 2 julien julien 4096 Sep 20 18:24 dir.js
+-rw-rw-r-- 1 betty  julien   23 Sep 20 14:25 hello
+-rw-rw-r-- 1 julien julien  982 Sep 20 18:21 iacta
+-rw-rw-r-- 1 julien julien  329 Sep 20 18:18 ls_cwd_content
+-rw-rw-r-- 1 julien julien    0 Sep 20 18:23 main.js
+
+./dir1:
+total 0
+-rw-rw-r-- 1 julien julien 0 Sep 20 18:23 code.js
+
+./dir.js:
+total 0
+julien@ubuntu:/tmp/h$ ./10-no_more_js 
+julien@ubuntu:/tmp/h$ ls -lR
+.:
+total 24
+-rwxrw-r-- 1 julien julien   49 Sep 20 18:29 10-no_more_js
+drwxrwxr-x 2 julien julien 4096 Sep 20 18:29 dir1
+drwxrwxr-x 2 julien julien 4096 Sep 20 18:24 dir.js
+-rw-rw-r-- 1 betty  julien   23 Sep 20 14:25 hello
+-rw-rw-r-- 1 julien julien  982 Sep 20 18:21 iacta
+-rw-rw-r-- 1 julien julien  329 Sep 20 18:18 ls_cwd_content
+
+./dir1:
+total 0
+
+./dir.js:
+total 0
+julien@ubuntu:/tmp/h$ 
+```
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `io_redirections_and_filters`.
+- File: `10-no_more_js`.
+<hr>
+</details>
+
+<details>
+	<summary>
+		<b>Task 11. Don't just count your directories, make your directories count</b>
+	</summary>
+	<br>
+
+Write a script that counts the number of directories and sub-directories in the current directory.
+- The current and parent directories should not be taken into account.
+- Hidden directories should be counted.
+```
+julien@production-503e7013:~/shell/fun_with_the_shell$ ls -lRa
+.:
+total 32
+drwxrwxr-x 3 julien julien 4096 Jan 20 03:53 .
+drwxrwxr-x 3 julien julien 4096 Jan 20 02:58 ..
+-rwxr--r-- 1 julien julien 43 Jan 20 02:59 0-commas
+-rwxr--r-- 1 julien julien 47 Jan 20 02:50 1-empty_casks
+-rwxrw-r-- 1 julien julien 68 Jan 20 03:35 2-gifs
+-rwxrw-r-- 1 julien julien 47 Jan 20 03:53 3-directories
+-rw-rw-r-- 1 julien julien 14 Jan 20 03:35 Makefile
+drwxrwxr-x 4 julien julien 4096 Jan 20 03:42 test_dir
+
+./test_dir:
+total 16
+drwxrwxr-x 4 julien julien 4096 Jan 20 03:42 .
+drwxrwxr-x 3 julien julien 4096 Jan 20 03:53 ..
+-rw-rw-r-- 1 julien julien 0 Jan 20 03:40 .horrible_selfie.gif
+-rw-rw-r-- 1 julien julien 0 Jan 20 03:23 README.md
+-rw-rw-r-- 1 julien julien 0 Jan 20 03:17 docker.gif
+-rw-rw-r-- 1 julien julien 0 Jan 20 03:17 file.sh
+drwxrwxr-x 2 julien julien 4096 Jan 20 03:23 photos
+drwxrwxr-x 2 julien julien 4096 Jan 20 03:23 rep.gif
+
+./test_dir/photos:
+total 8
+drwxrwxr-x 2 julien julien 4096 Jan 20 03:23 .
+drwxrwxr-x 4 julien julien 4096 Jan 20 03:42 ..
+-rw-rw-r-- 1 julien julien 0 Jan 20 03:23 cat.gif
+-rw-rw-r-- 1 julien julien 0 Jan 20 03:22 index.html
+-rw-rw-r-- 1 julien julien 0 Jan 20 03:23 main.gif
+-rw-rw-r-- 1 julien julien 0 Jan 20 03:23 rudy_rigot.gif
+
+./test_dir/rep.gif:
+total 8
+drwxrwxr-x 2 julien julien 4096 Jan 20 03:23 .
+drwxrwxr-x 4 julien julien 4096 Jan 20 03:42 ..
+julien@production-503e7013:~/shell/fun_with_the_shell$ ./11-directories
+3
+julien@production-503e7013:~/shell/fun_with_the_shell$
+```
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `io_redirections_and_filters`.
+- File: `11-directories`.
+<hr>
+</details>
+
+<details>
+	<summary>
+		<b>Task 12. What’s new</b>
+	</summary>
+	<br>
+
+Create a script that displays the 10 newest files in the current directory.
+Requirements:
+- One file per line.
+- Sorted from the newest to the oldest.
+```
+alex@ubuntu:/tmp$ ls -l
+total 7
+-rwxr-xr-x 1 501 dialout  32 Sep 27 23:51 0-hello_world
+-rwxr-xr-x 1 501 dialout  46 Sep 28 11:09 10-no_more_js
+-rwxr-xr-x 1 501 dialout  43 Sep 28 11:19 11-directories
+-rwxr-xr-x 1 501 dialout  30 Sep 29 13:43 12-newest_files
+-rwxr-xr-x 1 501 dialout  28 Sep 27 23:54 1-confused_smiley
+-rwxr-xr-x 1 501 dialout  28 Sep 27 23:58 2-hellofile
+-rwxr-xr-x 1 501 dialout  39 Sep 27 23:58 3-twofiles
+-rwxr-xr-x 1 501 dialout  33 Sep 27 23:59 4-lastlines
+-rwxr-xr-x 1 501 dialout  33 Sep 28 00:00 5-firstlines
+-rwxr-xr-x 1 501 dialout  28 Sep 28 00:25 6-third_line
+-rwxr-xr-x 1 501 dialout 110 Sep 28 00:34 7-file
+-rwxr-xr-x 1 501 dialout  36 Sep 28 00:34 8-cwd_state
+-rwxr-xr-x 1 501 dialout  35 Sep 28 00:35 9-duplicate_last_line
+-rw-r--r-- 1 501 dialout  19 Sep 27 23:51 README.md
+alex@ubuntu:/tmp$ ./12-newest_files 
+12-newest_files
+11-directories
+10-no_more_js
+9-duplicate_last_line
+7-file
+8-cwd_state
+6-third_line
+5-firstlines
+4-lastlines
+3-twofiles
+alex@ubuntu:/tmp$
+```
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `io_redirections_and_filters`.
+- File: `12-newest_files`.
+<hr>
+</details>
+
+<details>
+	<summary>
+		<b>Task 13. Being unique is better than being perfect</b>
+	</summary>
+	<br>
+
+Create a script that takes a list of words as input and prints only words that appear exactly once.
+- Input format: One line, one word.
+- Output format: One line, one word.
+- Words should be sorted.
+```
+julien@ubuntu:/tmp/0x02$ cat list 
+C#
+C
+Javascript
+Perl
+PHP
+PHP
+ASP
+R
+Go
+C#
+C++
+R
+Perl
+Javascript
+Javascript
+Python
+Javascript
+Javascript
+Javascript
+Java
+Java
+Python
+Javascript
+Javascript
+Javascript
+ASP
+julien@ubuntu:/tmp/0x02$ cat list | ./13-unique 
+C
+C++
+Go
+julien@ubuntu:/tmp/0x02$ 
+```
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `io_redirections_and_filters`.
+- File: `13-unique`.
+<hr>
+</details>
+
 ## 📂 Files description
 
 | **FILE** | **DESCRIPTION** |
