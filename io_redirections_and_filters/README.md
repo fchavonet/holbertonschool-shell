@@ -599,6 +599,77 @@ julien@ubuntu:/tmp/0x02$
 <hr>
 </details>
 
+<details>
+	<summary>
+		<b>Task 14. It must be in that file</b>
+	</summary>
+	<br>
+
+Display lines containing the pattern “root” from the file `/etc/passwd`.
+```
+$ ./14-findthatword
+root:*:0:0:System Administrator:/var/root:/bin/sh
+daemon:*:1:1:System Services:/var/root:/usr/bin/false
+_cvmsroot:*:212:212:CVMS Root:/var/empty:/usr/bin/false
+$
+```
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `io_redirections_and_filters`.
+- File: `14-findthatword`.
+<hr>
+</details>
+
+<details>
+	<summary>
+		<b>Task 15. Count that word</b>
+	</summary>
+	<br>
+
+Display the number of lines that contain the pattern “bin” in the file `/etc/passwd`
+```
+$ ./15-countthatword
+81
+$ 
+```
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `io_redirections_and_filters`.
+- File: `15-countthatword`.
+<hr>
+</details>
+
+<details>
+	<summary>
+		<b>Task 16. What's next?</b>
+	</summary>
+	<br>
+
+Display lines containing the pattern “root” and 3 lines after them in the file `/etc/passwd`.
+```
+$ ./16-whatsnext
+root:*:0:0:System Administrator:/var/root:/bin/sh
+daemon:*:1:1:System Services:/var/root:/usr/bin/false
+_uucp:*:4:4:Unix to Unix Copy Protocol:/var/spool/uucp:/usr/sbin/uucico
+_taskgated:*:13:13:Task Gate Daemon:/var/empty:/usr/bin/false
+_networkd:*:24:24:Network Services:/var/networkd:/usr/bin/false
+--
+_cvmsroot:*:212:212:CVMS Root:/var/empty:/usr/bin/false
+_usbmuxd:*:213:213:iPhone OS Device Helper:/var/db/lockdown:/usr/bin/false
+_dovecot:*:214:6:Dovecot Administrator:/var/empty:/usr/bin/false
+_dpaudio:*:215:215:DP Audio:/var/empty:/usr/bin/false
+$
+```
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `io_redirections_and_filters`.
+- File: `16-whatsnext`.
+<hr>
+</details>
+
 ## 📂 Files description
 
 | **FILE** | **DESCRIPTION** |
