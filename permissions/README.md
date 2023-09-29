@@ -517,23 +517,23 @@ julien@ubuntu:/tmp/h$
 
 | **FILE** | **DESCRIPTION** |
 | :-----: | ----- |
-| `0-iam_betty` | |
-| `1-who_am_i` | |
-| `2-groups` | |
-| `3-new_owner` | |
-| `4-empty` | |
-| `5-execute` | |
-| `6-multiple_permissions` | |
-| `7-everybody` | |
-| `8-James_Bond` | |
-| `9-John_Doe` | |
-| `10-mirror_permissions` | |
-| `11-directories_permissions` | |
-| `12-directory_permissions` | |
-| `13-change_group` | |
-| `14-change_owner_and_group` | |
-| `15-symbolic_link_permissions` | |
-| `16-if_only` | |
+| `0-iam_betty` | Script to switch the current user to the user `betty`. |
+| `1-who_am_i` | Script to print the effective username of the current user. |
+| `2-groups` | Script to print all the groups the current user is part of. |
+| `3-new_owner` | Script to change the owner of the file `hello` to the user `betty`. |
+| `4-empty` | Script to create an empty file called `hello`. |
+| `5-execute` | Script to add execute permission to the owner of the file `hello` |
+| `6-multiple_permissions` | Script to add execute permission to the owner and the group owner, and read permission to other users, to the file `hello`. |
+| `7-everybody` | Script to add execution permission to the owner, the group owner, and other users, to the file `hello`. |
+| `8-James_Bond` | Script to set the permissions to the file `hello` as follows: Owner has no permission, Group has no permission, and Other users have all permissions. |
+| `9-John_Doe` | Script to set the mode of the file `hello` to a specific pattern. |
+| `10-mirror_permissions` | Script to set the mode of the file `hello` the same as the mode of `olleh`. |
+| `11-directories_permissions` | Script to add execute permission to all subdirectories of the current directory for the owner, the group owner, and all other users. |
+| `12-directory_permissions` | Script to create a directory called `my_dir` with permissions 751 in the working directory. |
+| `13-change_group` | Script to change the group owner of the file `hello` to `school`. |
+| `14-change_owner_and_group` | Script to change the owner to `vincent` and the group owner to `staff` for all files and directories in the working directory. |
+| `15-symbolic_link_permissions` | Script to change the owner and the group owner of `_hello` to `vincent` and `staff` respectively. `_hello` is a symbolic link. |
+| `16-if_only` | Script to change the owner of the file `hello` to `vincent` only if it is currently owned by the user `guillaume`. |
 | `README.md` | The readme file you are currently reading 😉. |
 
 
