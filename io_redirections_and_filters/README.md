@@ -890,7 +890,7 @@ julien@ubuntu:/tmp/0x02$
 <hr>
 </details>
 
-### <span id="mandatory-tasks">Mandatory tasks</span>
+### <span id="mandatory-tasks">Advanced tasks</span>
 
 <details>
 	<summary>
