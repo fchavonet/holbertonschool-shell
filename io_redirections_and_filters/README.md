@@ -232,6 +232,72 @@ $
 <hr>
 </details>
 
+<details>
+	<summary>
+		<b>Task 6. Line #2</b>
+	</summary>
+	<br>
+
+Write a script that displays the third line of the file `iacta`.
+The file `iacta` will be in the working directory.
+- You’re not allowed to use `sed`.
+```
+julien@ubuntu:/tmp/h$ cat iacta 
+Alea iacta est
+
+Alea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius
+(as iacta alea est) to Julius Caesar on January 10, 49 BC
+as he led his army across the Rubicon river in Northern Italy. With this step,
+he entered Italy at the head of his army in defiance of the Senate and began
+his long civil war against Pompey and the Optimates. The phrase has been
+adopted in Italian (Il dado è tratto), Romanian (Zarurile au fost aruncate),
+Spanish (La suerte está echada), French (Les dés sont jetés), Portuguese (A
+sorte está lançada), Dutch (De teerling is geworpen),
+German (Der Würfel ist gefallen), Hungarian (A kocka el van vetve) and many other languages to
+indicate that events have passed a point of no return.
+
+Read more: https://en.wikipedia.org/wiki/Alea_iacta_est
+julien@ubuntu:/tmp/h$ ./6-third_line 
+Alea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius
+julien@ubuntu:/tmp/h$ 
+```
+Note: The output will differ, depending on the content of the file `iacta`.
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `io_redirections_and_filters`.
+- File: `6-third_line`.
+<hr>
+</details>
+
+<details>
+	<summary>
+		<b>Task 7. It is a good file that cuts iron without making a noise</b>
+	</summary>
+	<br>
+
+Write a shell script that creates a file named exactly `\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)` containing the text `Best School` ending by a new line.
+```
+julien@ubuntu:~/shell$ ls && ./7-file && ls -l && cat -e \\*
+0-mac_and_cheese 7-file 7-file~ Makefile
+total 20
+-rwxrw-r-- 1 julien julien 79 Jan 20 06:24 0-mac_and_cheese
+-rwxrw-r-- 1 julien julien 90 Jan 20 06:40 7-file
+-rwxrw-r-- 1 julien julien 69 Jan 20 06:37 7-file~
+-rw-rw-r-- 1 julien julien 14 Jan 20 06:38 Makefile
+-rw-rw-r-- 1 julien julien 17 Jan 20 06:40 '\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)'
+Best School$
+julien@ubuntu:~/shell$
+```
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `io_redirections_and_filters`.
+- File: `7-file`.
+<hr>
+</details>
+
+
 
 ## 📂 Files description
 
