@@ -104,6 +104,48 @@ Note: depending on the user, you will get a different output.
 <hr>
 </details>
 
+<details>
+	<summary>
+		<b>Task 3. New owner</b>
+	</summary>
+	<br>
+
+Write a script that changes the owner of the file `hello` to the user `betty`.
+```
+julien@ubuntu:/tmp/h$ ls -l
+total 4
+-rwxrw-r-- 1 julien julien 30 Sep 20 14:23 3-new_owner
+-rw-rw-r-- 1 julien julien  0 Sep 20 14:18 hello
+julien@ubuntu:/tmp/h$ sudo ./3-new_owner 
+julien@ubuntu:/tmp/h$ ls -l
+total 4
+-rwxrw-r-- 1 julien julien 30 Sep 20 14:23 3-new_owner
+-rw-rw-r-- 1 betty  julien  0 Sep 20 14:18 hello
+julien@ubuntu:/tmp/h$
+```
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `permissions`.
+- File: `3-new_owner`.
+<hr>
+</details>
+
+<details>
+	<summary>
+		<b>Task 4. Empty!</b>
+	</summary>
+	<br>
+
+Write a script that creates an empty file called `hello`.
+#
+**Repo:**
+- GitHub repository: `holbertonschool-shell`.
+- Directory: `permissions`.
+- File: `4-empty`.
+<hr>
+</details>
+
 ## 📂 Files description
 
 | **FILE** | **DESCRIPTION** |
