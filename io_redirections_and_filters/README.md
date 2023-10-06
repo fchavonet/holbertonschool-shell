@@ -1091,32 +1091,32 @@ julien@ubuntu:/tmp/0x02$
 
 | **FILE** | **DESCRIPTION** |
 | :-----: | ----- |
-| `0-hello_world` | |
-| `1-confused_smiley` | |
-| `2-hellofile` | |
-| `3-twofiles` | |
-| `4-lastlines` | |
-| `5-firstlines` | |
-| `6-third_liney` | |
-| `7-file` | |
-| `8-cwd_state` | |
-| `9-duplicate_last_line` | |
-| `10-no_more_js` | |
-| `11-directories` | |
-| `12-newest_files` | |
-| `13-unique` | |
-| `14-findthatword` | |
-| `15-countthatword` | |
-| `16-whatsnext` | |
-| `17-hidethisword` | |
-| `18-letteronly` | |
-| `19-AZ` | |
-| `20-hiago` | |
-| `21-reverse` | |
-| `22-users_and_homes` | |
-| `23-empty_casks` | |
-| `24-gifs` | |
-| `25-acrostic` | |
+| `0-hello_world` | Script to print “Hello, World”, followed by a new line to the standard output. |
+| `1-confused_smiley` |  Script to display a confused smiley `"(Ôo)'`. |
+| `2-hellofile` | Script to display the content of the `/etc/passwd` file. |
+| `3-twofiles` | Script to display the content of `/etc/passwd` and `/etc/hosts`. |
+| `4-lastlines` | Script to display the last 10 lines of `/etc/passwd`. |
+| `5-firstlines` | Script to display the first 10 lines of `/etc/passwd`. |
+| `6-third_liney` | Script to display the third line of the file `iacta` (the file `iacta` will be in the working directory). |
+| `7-file` | Script that creates a file named exactly `\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)` containing the text `Best School` ending by a new line. |
+| `8-cwd_state` |Sscript to write into the file `ls_cwd_content` the result of the command `ls -la`. |
+| `9-duplicate_last_line` | Script to duplicate the last line of the file `iacta`. |
+| `10-no_more_js` | Script to delete all the regular files (not the directories) with a `.js` extension that are present in the current directory and all its subfolders. |
+| `11-directories` | Script to count the number of directories and sub-directories in the current directory. |
+| `12-newest_files` | Script that counts the number of directories and sub-directories in the current directory. |
+| `13-unique` | Script that takes a list of words as input and prints only words that appear exactly once. |
+| `14-findthatword` | Script to display lines containing the pattern “root” from the file `/etc/passwd`. |
+| `15-countthatword` | Script to display the number of lines that contain the pattern `“bin”` in the file `/etc/passwd`. |
+| `16-whatsnext` | Script to display all the lines in the file `/etc/passwd` that do not contain the pattern `“bin”`. |
+| `17-hidethisword` | Script display all lines of the file `/etc/ssh/sshd_config` starting with a letter. |
+| `18-letteronly` | Script to replace all characters `A` and `c` from input to `Z` and `e` respectively. |
+| `19-AZ` | Script to replace all characters `A` and `c` from input to `Z` and `e` respectively. |
+| `20-hiago` | Script to removes all letters `c` and `C` from input. |
+| `21-reverse` | Script that reverse its input. |
+| `22-users_and_homes` | Script to displays all users and their home directories, sorted by users. |
+| `23-empty_casks` | Script to find all empty files and directories in the current directory and all sub-directories. |
+| `24-gifs` | Script to list all the files with a .gif extension in the current directory and all its sub-directories. |
+| `25-acrostic` | Script to decodes acrostics that use the first letter of each line. |
 | `README.md` | The readme file you are currently reading 😉. |
 
 
