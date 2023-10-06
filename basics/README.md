@@ -538,8 +538,6 @@ julien@ubuntu:/tmp/h$
 | `17-tree` | Script to create directories `welcome/`, `welcome/to/`, and `welcome/to/school` in the current directory. |
 | `README.md` | The readme file you are currently reading 😉. |
 
-
-
 ## ♥️ Thanks
 
 A big thank you to all my Holberton School peers for their help and support throughout these projects.
